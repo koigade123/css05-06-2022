@@ -1,0 +1,79 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Exercise - 3</title>
+		<style>
+		  #heading
+				{
+					font-family: 'times new roman';
+					font-size: 24px;
+				}
+
+		  td.rushi
+				{
+					text-align: right;
+					background-color: lightblue;
+				}
+          #regform
+				{
+					background-image: url('logo.png');
+					background-repeat: no-repeat;
+					background-position: top right;
+				}
+		</style>
+	</head>
+	<body>
+		<h3 id="heading">Registration Form</h3>
+		<form id="regform">
+			<table>
+				<tr>
+					<td class="rushi">Name:</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td class="rushi">Class:</td>
+					<td>
+						<select>
+							<option>I</option>
+							<option>II</option>
+							<option>III</option>
+							<option>IV</option>
+						</select>
+						Year
+					</td>
+				</tr>
+				<tr>
+					<td class="rushi">Qualification:</td>
+					<td>
+						<select>
+							<option>B.Tech</option>
+							<option>M.Tech</option>
+							<option>MBA</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="rushi">Email ID:</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td class="rushi">Address:</td>
+					<td>
+						<textarea rows="5" cols="20"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td class="rushi">Upload Photo:</td>
+					<td><input type="file" /></td>
+				</tr>
+				<tr>
+					<td class="rushi"></td>
+					<td>
+						<input type="submit" value="Register" />
+						<input type="reset" value="Clear" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
